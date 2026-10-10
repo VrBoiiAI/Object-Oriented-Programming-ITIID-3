@@ -19,8 +19,10 @@
   - A class method naed show_bank() that prints the bank's name.
   - A static method named convert currency(value) that receives an amount in dollars and converts it to pesos (use a fixed exchange rate of your choice).  
 <br>
+
 ### Activity 2
 - `activity2.1.py`: Create a class Employee with attributes name and salary, and a method `show_info()` that prints the name and salary. Then, create a class Manager that inherits from Employee and adds an attribute department. Override `show_info()` to also display the department.
+
 - `activity2.2.py`: Create a class Accountant with a method `generate_report()` that prints "Generating financial report". Create a class Technician with a method `repair_machine()` that prints "Repairing machine". Create a class Boss that inherits from both classes and test both methods.
 - `activity2.3.py`: Create a function `calculate_payment(worker)` that calls a method `payment()` of the passed object. Create several classes (FullTimeEmployee, HourlyEmployee) each with its own `payment()` method. Test the function with different objects and see how the same method produces different results.
 - `activity2.4.py`: Create a class Engine with a method `start_engine()` that prints "Engine started". Create a class Car that has an attribute engine (type Engine) and a method `start_car()` that calls `engine.start()`.
