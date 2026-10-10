@@ -6,7 +6,6 @@
 - UML Olympic Soccer Class Diagram: Class diagram explaining the parts and relationships of the classes within a soccer match.
 - UML Car Reservation Class Diagram: Class diagram for the process of making a car rental.
 - UML Sequence Diagram: Sequence diagram explaining the steps of making a reservation for a sport facility in a club.
----
 
 
 ## Unit 2: Syntax and documentation of object oriented languages
@@ -18,7 +17,6 @@
   - An instance method named show_balance() that prints the client's balance.
   - A class method naed show_bank() that prints the bank's name.
   - A static method named convert currency(value) that receives an amount in dollars and converts it to pesos (use a fixed exchange rate of your choice).  
-<br>
 
 ### Activity 2
 - `activity2.1.py`: Create a class Employee with attributes name and salary, and a method `show_info()` that prints the name and salary. Then, create a class Manager that inherits from Employee and adds an attribute department. Override `show_info()` to also display the department.
